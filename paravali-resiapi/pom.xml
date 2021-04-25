@@ -68,7 +68,7 @@
 				</executions>
 				<configuration>
 					<repository>octocat61/greedydp</repository>
-					<tag>${project.version}</tag>
+					<tag>${project.build.finalName}</tag>
 					<buildArgs>
 						<JAR_FILE>${project.build.finalName}.jar</JAR_FILE>
 					</buildArgs>
