@@ -12,7 +12,7 @@ def restapi_sender(url, params):
 
 
 if __name__ == '__main__':
-    _params = {'id': 'id1000', 'value1': 1000}
+    _params = {'id': 'id1000', 'value': 1000}
     _url = 'http://localhost:8001/paravali/validation'
     _result = restapi_sender(_url, _params)
     print(_result)
