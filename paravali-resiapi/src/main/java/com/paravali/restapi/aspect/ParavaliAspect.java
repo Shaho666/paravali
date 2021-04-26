@@ -25,8 +25,8 @@ public class ParavaliAspect {
 			Map<?, ?> params = (Map<?, ?>) args[0];
 			String id = (String) params.get("id");
 			Integer value = (Integer) params.get("value");
-			
-			if (id == null || "".equals("")) {
+
+			if (id == null || "".equals(id)) {
 				throw new Exception("id is null");
 			}
 			if (value == null || value < 0) {
